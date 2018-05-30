@@ -1,0 +1,26 @@
+{
+  "name": "apigee-ingestion-api-sage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/jasmine/bin/jasmine.js -x **/spec/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PwC-Next/apigee-ingestion-api-sage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PwC-Next/apigee-ingestion-api-sage/issues"
+  },
+  "homepage": "https://github.com/PwC-Next/apigee-ingestion-api-sage#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
